@@ -4,17 +4,87 @@
   <head>
     <meta charset ="utf-8">
     <title>UBUNTU</title>
+	<style>
+            p
+            {
+                color: orange;
+            }
+        </style>
   </head>
  
-  <body>
-  
-  <p><img alt="Survol" height="198" onmouseout="this.src='https://www.e-monsite.com/medias/images/bleu.png';" onmouseover="this.src='https://upload.wikimedia.org/wikipedia/commons/e/e0/Ubuntu_logo_orange.png';" src="https://www.e-monsite.com/medias/images/bleu.png" /></p>
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" /> <!-- Pour tout le monde -->
+        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+        <title>Media queries</title>
+    </head>
+ 
+ 
+ 
+ 
+ 
+<!DOCTYPE html>
+<html dir="ltr" lang="fr-FR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Header fixe et gentil</title>
+  <style type="text/css">
 
+html, body {
+        margin: 2; padding: 5;
+        height: 50%;
+}
+
+header {
+        position: fixed;
+        width: 200%;
+        height: 4rem;
+        z-index: 99;
+        background: orange;
+}
+
+.conteneur {
+        position: relative;
+        top: 1rem;
+}
+section {
+        margin-bottom: 20%;
+        background: gray;
+}
+  </style>
+</head>
+<body>
+ <p><img alt="Survol" height="198" onmouseout="this.src='https://www.e-monsite.com/medias/images/bleu.png';" onmouseover="this.src='https://upload.wikimedia.org/wikipedia/commons/e/e0/Ubuntu_logo_orange.png';" src="https://www.e-monsite.com/medias/images/bleu.png" /></p>
+  <header>Accueil<br /></header>
+  <div class="conteneur">
+  <header>    <li><a href="projet 000 lts.html" >Page LTS</a></li><br /></header>
+ 
+    <div class="conteneur">
+     <header>    <li><a href="actu.html" >Actualités</a></li><br /></header>
+	  <div class="conteneur">
+  </div>
+</body>
+</html>
+ 
+ 
+
+
+   <body>
+  
   <h1>Sommaire</h1>
   <p>Qu'est ce que Ubuntu ?</p>
     <p>Qu'est ce qu'un logiciel libre ?</p>
 	<p>Qu'est ce qu'un logiciel non libre ?</p>
 	 <p>Les différentes versions</p>
+	 <p>Qu'est ce qu'un système d'exploitation</p>
+	 <p>Les avantages</p>
+	 <p>Les inconviénent</p>
+	 <p>Les différents types de mises à jour</p>
+	 <p>Comment mettre à jour Ubuntu</p>
+	 <p>L'actualités</p>
+	 
 	
     <h1>Qu'est ce que Ubuntu ?</h1>
     <p>Ubuntu est un systeme d'exploitation basé sur debian GNU / linux.</p>
@@ -86,33 +156,40 @@
    <p>5.Linux est un système très sécurisé, les droits des fichiers et applications sont mieux gérés</p>
    
    <h1>Les inconviénent</h1>
- <p>1.la reconnaissance du matériel sur certains ordinateurs</p>
+ <p>1.la reconnaissance du matériel sur certains ordinateurs (exemple les veilles ne marchent pas toujours correctement)</p>
+  <p>2.besoin de réapprendre certaines bases</p>
+ <p>3.risque de refus d'utilisation de certain jeux et logiciels payant achetés dans le commerce</p>
+ 
+  <h1>Les diférents types de mises à jour</h1>
+  <p>1.Mise à jour de sécurité</p>
+  <p>elles sont publiées lorsqu'un bug ou faille de sécurité apparaît  dans le système d'exploitation. </p>
+  <p>2.Mise à jour recommandées</p>
+ <p>peuvent corriger quelques bugs, mais n'ont pas d'incidence sur la sécurité du sytème</p>
+ <p>Leur installation est donc recommandée. Le temps de téléchargement est souvent peu important, de même que les modifications apportées, mais elles permettent une meilleure stabilité du système.</p>
+   <p>3.Mise à jour de préversion</p>
+   <p>servent à tester des paquets, des mises à jour ou des applications en version non stable.Elles peuvent donc être à l'origine de bugs ou de corruption de votre système.</p>
+  <p>4.Mise à niveau</p>
+  <p> le passage d'une version de Ubuntu à une version plus récente . Ubuntu sort une nouvelle version du système d'exploitation tous les six mois .</p>
+ 
+ <h1>Comment mettre à jour Ubuntu</h1>
+ <p>1.Mise à jour manuellement</p>
+ <p>Pour lancer une recherche de mises à jour manuellement, ouvrez le gestionnaire de mises à jour :</p>
+
+<p>Sous Ubuntu et Edubuntu : lancer Gestionnaire de mises à jour depuis le Tableau de bord (Dash)</p>
+<p>Sous Xubuntu : Applications→Système→Gestionnaire de mises à jour ou Applications–>Paramètres–>Gestionnaires de mise à jour</p>
+<p>Sous Kubuntu : Applications→Système→Gestionnaire des logiciels→Mise à jour logicielles</p>
+ <p>puis cliquez sur Vérifier, et si des mises à jour sont disponibles, cliquez sur Installer les mises à jour.</p>
+  <p>2.Mise à jour via un terminal</p>
+  <p>Pour maintenir à jour son système depuis un terminal, on peut utiliser la commande:</p>
+
+<p>sudo apt-get update && sudo apt-get upgrade -y</p>
+ 
+ 
+
  
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  </body>	
